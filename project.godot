@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="CrispGameTemplate"
+config/name="BeeGame2"
 run/main_scene="uid://cylpimnbxhptk"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"

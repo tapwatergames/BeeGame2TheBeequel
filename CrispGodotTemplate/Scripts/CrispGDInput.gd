@@ -4,6 +4,8 @@ signal input_just_pressed(position: Vector2, delta: float)
 signal input_pressed(position: Vector2, delta: float)
 signal input_released(position: Vector2, delta: float)
 
+
+
 func _process(_delta):
 	var mouse_pos = get_clamped_mouse_position()
 	if Input.is_action_just_pressed("game_pressed"):
